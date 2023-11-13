@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option go_package = "grpc/proto";
+
+package GRPC;
+
+message AccessRequest {
+    int64 Id = 1;
+    int64 Timestamp = 2;
+}
+
+message AccessResponse {
+}
+
+service QueueService {
+    rpc RequestAccess(AccessRequest) returns (AccessResponse);
+}

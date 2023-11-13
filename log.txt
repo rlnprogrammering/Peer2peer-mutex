@@ -1,0 +1,108 @@
+2023/11/13 19:53:32 (id: 5000) received request from (id: 5002) at lamport time 1 
+2023/11/13 19:53:32 (id: 5000) sending ack to (id: 5002) at lamport time 2
+2023/11/13 19:53:32 (id: 5002) received response from (id: 5000) at lamport time 1 
+2023/11/13 19:53:32 (id: 5001) received request from (id: 5002) at lamport time 1 
+2023/11/13 19:53:32 (id: 5001) sending ack to (id: 5002) at lamport time 2
+2023/11/13 19:53:32 (id: 5002) received response from (id: 5001) at lamport time 1 
+2023/11/13 19:53:32 Process 5002 entered critical section
+2023/11/13 19:53:33 (id: 5001) received request from (id: 5000) at lamport time 2 
+2023/11/13 19:53:33 (id: 5001) sending ack to (id: 5000) at lamport time 3
+2023/11/13 19:53:33 (id: 5000) received response from (id: 5001) at lamport time 2 
+2023/11/13 19:53:33 (id: 5002) received request from (id: 5000) at lamport time 2 
+2023/11/13 19:53:33 (id: 5000) received request from (id: 5001) at lamport time 3 
+2023/11/13 19:53:35 Process 5002 exited critical section
+2023/11/13 19:53:35 (id: 5002) sending ack to (id: 5000) at lamport time 3
+2023/11/13 19:53:35 (id: 5000) received request from (id: 5002) at lamport time 3 
+2023/11/13 19:53:35 (id: 5000) received response from (id: 5002) at lamport time 4 
+2023/11/13 19:53:35 Process 5000 entered critical section
+2023/11/13 19:53:38 Process 5000 exited critical section
+2023/11/13 19:53:38 (id: 5000) sending ack to (id: 5002) at lamport time 5
+2023/11/13 19:53:38 (id: 5000) sending ack to (id: 5001) at lamport time 5
+2023/11/13 19:53:38 (id: 5002) received response from (id: 5000) at lamport time 3 
+2023/11/13 19:53:38 (id: 5001) received request from (id: 5000) at lamport time 5 
+2023/11/13 19:53:38 (id: 5001) received response from (id: 5000) at lamport time 4 
+2023/11/13 19:53:38 (id: 5001) received request from (id: 5002) at lamport time 3 
+2023/11/13 19:53:38 (id: 5002) received request from (id: 5001) at lamport time 3 
+2023/11/13 19:53:38 (id: 5002) sending ack to (id: 5001) at lamport time 4
+2023/11/13 19:53:38 (id: 5001) received response from (id: 5002) at lamport time 5 
+2023/11/13 19:53:38 Process 5001 entered critical section
+2023/11/13 19:53:41 Process 5001 exited critical section
+2023/11/13 19:53:41 (id: 5001) sending ack to (id: 5002) at lamport time 6
+2023/11/13 19:53:41 (id: 5001) sending ack to (id: 5000) at lamport time 6
+2023/11/13 19:53:41 (id: 5002) received response from (id: 5001) at lamport time 4 
+2023/11/13 19:53:41 Process 5002 entered critical section
+2023/11/13 19:53:41 (id: 5002) received request from (id: 5001) at lamport time 6 
+2023/11/13 19:53:41 (id: 5000) received response from (id: 5001) at lamport time 5 
+2023/11/13 19:53:41 (id: 5002) received request from (id: 5000) at lamport time 5 
+2023/11/13 19:53:44 Process 5002 exited critical section
+2023/11/13 19:53:44 (id: 5002) sending ack to (id: 5000) at lamport time 7
+2023/11/13 19:53:44 (id: 5002) sending ack to (id: 5001) at lamport time 7
+2023/11/13 19:53:44 (id: 5000) received request from (id: 5002) at lamport time 7 
+2023/11/13 19:53:44 (id: 5001) received response from (id: 5002) at lamport time 6 
+2023/11/13 19:53:44 (id: 5000) received response from (id: 5002) at lamport time 6 
+2023/11/13 19:53:44 Process 5000 entered critical section
+2023/11/13 19:53:44 (id: 5000) received request from (id: 5001) at lamport time 6 
+2023/11/13 19:53:47 Process 5000 exited critical section
+2023/11/13 19:53:47 (id: 5000) sending ack to (id: 5001) at lamport time 8
+2023/11/13 19:53:47 (id: 5000) sending ack to (id: 5002) at lamport time 8
+2023/11/13 19:53:47 (id: 5002) received response from (id: 5000) at lamport time 7 
+2023/11/13 19:53:47 (id: 5001) received request from (id: 5000) at lamport time 8 
+2023/11/13 19:53:47 (id: 5001) received response from (id: 5000) at lamport time 7 
+2023/11/13 19:53:47 Process 5001 entered critical section
+2023/11/13 19:53:47 (id: 5001) received request from (id: 5002) at lamport time 7 
+2023/11/13 19:53:50 Process 5001 exited critical section
+2023/11/13 19:53:50 (id: 5001) sending ack to (id: 5000) at lamport time 9
+2023/11/13 19:53:50 (id: 5001) sending ack to (id: 5002) at lamport time 9
+2023/11/13 19:53:50 (id: 5002) received response from (id: 5001) at lamport time 7 
+2023/11/13 19:53:50 (id: 5000) received response from (id: 5001) at lamport time 8 
+2023/11/13 19:53:50 Process 5002 entered critical section
+2023/11/13 19:53:50 (id: 5000) received request from (id: 5001) at lamport time 9 
+2023/11/13 19:53:50 (id: 5002) received request from (id: 5000) at lamport time 8 
+2023/11/13 19:53:53 Process 5002 exited critical section
+2023/11/13 19:53:53 (id: 5002) sending ack to (id: 5000) at lamport time 9
+2023/11/13 19:53:53 (id: 5000) received response from (id: 5002) at lamport time 9 
+2023/11/13 19:53:53 Process 5000 entered critical section
+2023/11/13 19:53:53 (id: 5000) received request from (id: 5002) at lamport time 9 
+2023/11/13 19:53:56 Process 5000 exited critical section
+2023/11/13 19:53:56 (id: 5000) sending ack to (id: 5002) at lamport time 11
+2023/11/13 19:53:56 (id: 5000) sending ack to (id: 5001) at lamport time 11
+2023/11/13 19:53:56 (id: 5001) received request from (id: 5000) at lamport time 11 
+2023/11/13 19:53:56 (id: 5002) received response from (id: 5000) at lamport time 9 
+2023/11/13 19:53:56 (id: 5001) received response from (id: 5000) at lamport time 10 
+2023/11/13 19:53:56 (id: 5001) received request from (id: 5002) at lamport time 9 
+2023/11/13 19:53:56 (id: 5002) received request from (id: 5001) at lamport time 9 
+2023/11/13 19:53:56 (id: 5002) sending ack to (id: 5001) at lamport time 10
+2023/11/13 19:53:56 (id: 5001) received response from (id: 5002) at lamport time 11 
+2023/11/13 19:53:56 Process 5001 entered critical section
+2023/11/13 19:53:59 Process 5001 exited critical section
+2023/11/13 19:53:59 (id: 5001) sending ack to (id: 5002) at lamport time 12
+2023/11/13 19:53:59 (id: 5001) sending ack to (id: 5000) at lamport time 12
+2023/11/13 19:53:59 (id: 5002) received response from (id: 5001) at lamport time 10 
+2023/11/13 19:53:59 Process 5002 entered critical section
+2023/11/13 19:53:59 (id: 5000) received response from (id: 5001) at lamport time 11 
+2023/11/13 19:53:59 (id: 5000) received request from (id: 5001) at lamport time 12 
+2023/11/13 19:53:59 (id: 5002) received request from (id: 5000) at lamport time 11 
+2023/11/13 19:54:02 Process 5002 exited critical section
+2023/11/13 19:54:02 (id: 5002) sending ack to (id: 5000) at lamport time 12
+2023/11/13 19:54:02 (id: 5000) received response from (id: 5002) at lamport time 12 
+2023/11/13 19:54:02 (id: 5001) received request from (id: 5002) at lamport time 12 
+2023/11/13 19:54:02 Process 5000 entered critical section
+2023/11/13 19:54:05 Process 5000 exited critical section
+2023/11/13 19:54:05 (id: 5000) sending ack to (id: 5001) at lamport time 13
+2023/11/13 19:54:05 (id: 5001) received request from (id: 5000) at lamport time 13 
+2023/11/13 19:54:05 (id: 5001) received response from (id: 5000) at lamport time 14 
+2023/11/13 19:54:05 (id: 5002) received request from (id: 5001) at lamport time 12 
+2023/11/13 19:54:05 (id: 5002) sending ack to (id: 5001) at lamport time 13
+2023/11/13 19:54:05 (id: 5001) received response from (id: 5002) at lamport time 14 
+2023/11/13 19:54:05 Process 5001 entered critical section
+2023/11/13 19:54:08 Process 5001 exited critical section
+2023/11/13 19:54:08 (id: 5001) sending ack to (id: 5000) at lamport time 15
+2023/11/13 19:54:08 (id: 5001) sending ack to (id: 5002) at lamport time 15
+2023/11/13 19:54:08 (id: 5002) received response from (id: 5001) at lamport time 13 
+2023/11/13 19:54:08 (id: 5000) received response from (id: 5001) at lamport time 14 
+2023/11/13 19:54:08 (id: 5000) received request from (id: 5001) at lamport time 15 
+2023/11/13 19:54:08 (id: 5002) received request from (id: 5000) at lamport time 13 
+2023/11/13 19:54:08 (id: 5000) received request from (id: 5002) at lamport time 12 
+2023/11/13 19:54:08 (id: 5000) sending ack to (id: 5002) at lamport time 15
+2023/11/13 19:54:08 (id: 5002) received response from (id: 5000) at lamport time 14 
+2023/11/13 19:54:08 Process 5002 entered critical section
